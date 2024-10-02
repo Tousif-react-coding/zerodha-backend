@@ -124,7 +124,7 @@ app.get("/dashboard", auth, (request, response) => {
 });
 //Login or Signup  for frontend
 
-app.use('/api' , user)
+app.use('/api' ,auth, user)
 
 
 
